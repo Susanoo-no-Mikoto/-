@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифратор</title>
+</head>
+<body>
+    <header>
+        <div class="header__wrapper">
+            <div class="logo">
+                <h1>Шифратор</h1>
+            </div>
+            <div class="menu">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="caesar.html" class="header__link">Шифр Цезаря</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="vigenere.html" class="header__link">Шифр Виженера</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <form id="form" class="form">
+            <p class="form__item">Введите текст для шифрования: </br> <textarea name="" id="inp" class="txt"></textarea> </p>
+            <p class="form__item">Введите кодовое слово для шифрования: </br> <textarea name="" id="inp2" class="txt2"></textarea></p>
+            <input type="button" value="Go" class="sub" id="sub">
+        </form>
+        <p id="txtNew" class="txtNew"></p>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/vigenere.js"></script>
+</body>
+</html>
