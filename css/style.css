@@ -30,7 +30,7 @@ header{
 }
 
 .header__link:hover, .header__link:focus, .header__link:active{
-    opacity: .75;
+    opacity: 0.75;
 }
 
 .header__item{
@@ -40,6 +40,12 @@ header{
 
 .header__item:last-child{
     margin-right: 0;
+}
+
+.logo__item{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
 }
 
 .form{
